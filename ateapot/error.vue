@@ -1,5 +1,5 @@
 <template>
-  <title> I am a teapot. Are you? </title>
+  <title> Yes. </title>
   <div class="mainLayout">
     <span class="titleText">{{ error.statusCode }}</span>
     <span>{{ error.message }}</span>
@@ -7,11 +7,8 @@
     <div class="spacer" />
 
     <div class="aboutList">
-      <NuxtLink to="https://blurryface.xyz">
+      <NuxtLink to="https://blurryface.gay">
         <span class="user"> <img class="userImg" src="https://avatars.githubusercontent.com/blryface"> </span>
-      </NuxtLink>
-      <NuxtLink to="https://worldwidepixel.ca">
-        <span class="user"> <img class="userImg" src="https://avatars.githubusercontent.com/worldwidepixel"> </span>
       </NuxtLink>
     </div>
   </div>
@@ -95,10 +92,10 @@ export default {
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'I am a teapot. Are you?',
-  ogTitle: 'I am a teapot. Are you?',
-  description: 'The high-quality teapot experience.',
-  ogDescription: 'The high-quality teapot experience.',
-  ogImage: 'https://http.cat/418',
+  title: 'Yes.',
+  ogTitle: 'Yes.',
+  description: 'Did you have any doubts?',
+  ogDescription: 'Did you have any doubts?',
+  ogImage: 'https://http.cat/420',
 })
 </script>

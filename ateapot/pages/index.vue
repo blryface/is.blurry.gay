@@ -1,5 +1,5 @@
 <template>
-    <title> I am a teapot. </title>
+    <title> Yes. </title>
     <div class="a"></div>
 </template>
 
@@ -16,9 +16,9 @@
     async setup() {
     if (true) {
       throw createError({
-        statusCode: 418,
+        statusCode: 420,
         fatal: false,
-        message: "I'm a teapot.",
+        message: "Enhance your calm.",
       })
     }
   }  }
