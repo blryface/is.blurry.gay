@@ -7,7 +7,7 @@
     <div class="spacer" />
 
     <div class="aboutList">
-      <NuxtLink to="https://blurryface.gay">
+      <NuxtLink to="https://blurry.gay">
         <span class="user"> <img class="userImg" src="https://avatars.githubusercontent.com/blryface"> </span>
       </NuxtLink>
     </div>
